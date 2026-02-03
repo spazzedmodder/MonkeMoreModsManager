@@ -83,7 +83,7 @@ namespace MonkeModManager
 
         private void LoadReleases()
         {
-            var decodedMods = JSON.Parse(DownloadSite("https://raw.githubusercontent.com/BzzzThe18th/MonkeModInfo/master/modinfo.json"));
+            var decodedMods = JSON.Parse(DownloadSite("https://raw.githubusercontent.com/spazzedmodder/GorillaInfo/master/modinfo3.json"));
             var decodedGroups = JSON.Parse(DownloadSite("https://raw.githubusercontent.com/BzzzThe18th/MonkeModInfo/master/groupinfo.json"));
 
             var allMods = decodedMods.AsArray;
